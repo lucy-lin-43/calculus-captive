@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".StoryLevelSelectActivity" >
+
+    <Button
+        android:id="@+id/button_story_level_select_return"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="startMainActivity"
+        android:text="@string/misc_button_return"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_story_level_select_intro"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:onClick="loadRoom"
+        android:text="@string/story_level_select_activity_button_intro"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_story_level_select_level_01"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/button_story_level_select_intro"
+        android:layout_alignStart="@+id/button_story_level_select_intro"
+        android:layout_below="@+id/button_story_level_select_intro"
+        android:layout_marginTop="20dp"
+        android:onClick="loadRoom"
+        android:text="@string/story_level_select_activity_button_level_01"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_story_level_select_level_02"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/button_story_level_select_level_01"
+        android:layout_alignStart="@+id/button_story_level_select_level_01"
+        android:layout_below="@+id/button_story_level_select_level_01"
+        android:layout_marginTop="20dp"
+        android:onClick="loadRoom"
+        android:text="@string/story_level_select_activity_button_level_02"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_story_level_select_level_03"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/button_story_level_select_level_02"
+        android:layout_alignStart="@+id/button_story_level_select_level_02"
+        android:layout_below="@+id/button_story_level_select_level_02"
+        android:layout_marginTop="20dp"
+        android:onClick="loadRoom"
+        android:text="@string/story_level_select_activity_button_level_03"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_story_level_select_level_04"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:onClick="loadRoom"
+        android:text="@string/story_level_select_activity_button_level_04"/>
+
+    <Button
+        android:id="@+id/button_story_level_select_level_05"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/button_story_level_select_level_04"
+        android:layout_alignStart="@+id/button_story_level_select_level_04"
+        android:layout_below="@+id/button_story_level_select_level_04"
+        android:layout_marginTop="20dp"
+        android:onClick="loadRoom"
+        android:text="@string/story_level_select_activity_button_level_05"/>
+
+    <Button
+        android:id="@+id/button_story_level_select_level_06"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/button_story_level_select_level_05"
+        android:layout_alignStart="@+id/button_story_level_select_level_05"
+        android:layout_below="@+id/button_story_level_select_level_05"
+        android:layout_marginTop="20dp"
+        android:onClick="loadRoom"
+        android:text="@string/story_level_select_activity_button_level_06"/>
+
+    <Button
+        android:id="@+id/button_story_level_select_level_07"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/button_story_level_select_level_06"
+        android:layout_alignStart="@+id/button_story_level_select_level_06"
+        android:layout_below="@+id/button_story_level_select_level_06"
+        android:layout_marginTop="20dp"
+        android:onClick="loadRoom"
+        android:text="@string/story_level_select_activity_button_level_07"/>
+
+</RelativeLayout>

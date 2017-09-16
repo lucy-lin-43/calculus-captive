@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".ProfileActivity" >
+
+    <Button
+        android:id="@+id/button_profile_return"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="startMainActivity"
+        android:text="@string/misc_button_return"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView_profile_story_completion_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/profile_activity_textView_story_completion_title"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_profile_story"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_profile_story_completion_title"
+        android:layout_below="@+id/textView_profile_story_completion_title"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:id="@+id/textView_profile_statistics_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="@string/profile_activity_textView_statistics_title"
+        android:textStyle="bold"
+        android:layout_below="@+id/progressBar_profile_story"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView_profile_statistics_games_won"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="@string/profile_activity_textView_statistics_games_won"
+        android:layout_below="@+id/textView_profile_statistics_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:id="@+id/textView_profile_statistics_games_lost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="@string/profile_activity_textView_statistics_games_lost"
+        android:layout_below="@+id/textView_profile_statistics_games_won"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView_profile_statistics_games_won"
+        android:layout_alignEnd="@+id/textView_profile_statistics_games_won"/>
+
+    <TextView
+        android:id="@+id/textView_profile_clues_uncovered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="@string/profile_activity_textView_clues_uncovered_title"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView_profile_statistics_games_lost"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView_profile_clues_uncovered"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TableLayout
+            android:id="@+id/tableLayout_profile_clue_table"
+            style="@style/darkstyle"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/textView_profile_clues_uncovered"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/textView_profile_clue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_profile_clues_uncovered"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/profile_activity_textView_no_clues" />
+        </TableLayout>
+     </ScrollView>
+</RelativeLayout>

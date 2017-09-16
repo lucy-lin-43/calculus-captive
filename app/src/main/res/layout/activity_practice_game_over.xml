@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".PracticeGameOverActivity" >
+
+    <TextView
+        android:id="@+id/textView_game_over_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
+        android:text="@string/game_over_activity_textView_title"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView_game_over_quiz_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_game_over_title"
+        android:layout_alignLeft="@+id/textView_game_over_title"
+        android:layout_alignRight="@+id/textView_game_over_title"
+        android:layout_alignStart="@+id/textView_game_over_title"
+        android:layout_below="@+id/textView_game_over_title"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/game_over_activity_textView_quiz_score"/>
+
+    <Button
+        android:id="@+id/button_game_over_try_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button_game_over_main_menu"
+        android:layout_alignLeft="@+id/button_game_over_main_menu"
+        android:layout_alignRight="@+id/button_game_over_main_menu"
+        android:layout_below="@+id/textView_game_over_quiz_score"
+        android:layout_marginBottom="10dp"
+        android:onClick="startQuizActivity"
+        android:text="@string/game_over_activity_button_try_again"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_game_over_main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_game_over_try_again"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:onClick="startMainActivity"
+        android:text="@string/game_over_activity_button_main_menu"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

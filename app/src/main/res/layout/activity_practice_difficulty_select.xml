@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".PracticeDifficultySelectActivity" >
+
+    <Button
+        android:id="@+id/button_difficulty_select_return"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="startPracticeLevelSelectActivity"
+        android:text="@string/misc_button_return"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_difficulty_select_hard"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/button_difficulty_select_medium"
+        android:layout_alignLeft="@+id/button_difficulty_select_medium"
+        android:layout_alignRight="@+id/button_difficulty_select_medium"
+        android:layout_alignStart="@+id/button_difficulty_select_medium"
+        android:layout_below="@+id/button_difficulty_select_medium"
+        android:layout_marginBottom="10dp"
+        android:onClick="startQuizActivity"
+        android:text="@string/difficulty_select_activity_button_difficulty_hard"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_difficulty_select_easy"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/button_difficulty_select_medium"
+        android:layout_alignEnd="@+id/button_difficulty_select_medium"
+        android:layout_alignLeft="@+id/button_difficulty_select_medium"
+        android:layout_alignRight="@+id/button_difficulty_select_medium"
+        android:layout_alignStart="@+id/button_difficulty_select_medium"
+        android:layout_marginBottom="10dp"
+        android:onClick="startQuizActivity"
+        android:text="@string/difficulty_select_activity_button_difficulty_easy"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_difficulty_select_medium"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:onClick="startQuizActivity"
+        android:text="@string/difficulty_select_activity_button_difficulty_medium"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

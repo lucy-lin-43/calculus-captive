@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calculus | Captive</string>
+
+    <string name="db_topic_functions">Functions and Models</string>
+    <string name="db_topic_limits">Limits and Derivatives</string>
+    <string name="db_topic_differentiation">Differentiation Rules</string>
+    <string name="db_topic_integration">Integration Rules</string>
+
+    <string name="db_difficulty_easy">Beginner</string>
+    <string name="db_difficulty_medium">Advanced</string>
+    <string name="db_difficulty_hard">Expert</string>
+
+    <string name="difficulty_select_activity_textView_title">Pick a Difficulty:</string>
+    <string name="difficulty_select_activity_button_difficulty_easy">Beginner</string>
+    <string name="difficulty_select_activity_button_difficulty_medium">Advanced</string>
+    <string name="difficulty_select_activity_button_difficulty_hard">Expert</string>
+
+    <string name="extras_description_id">descriptionId</string>
+    <string name="extras_difficulty_id">difficultyId</string>
+    <string name="extras_level_id">levelId</string>
+    <string name="extras_score_id">scoreId</string>
+    <string name="extras_title_id">titleId</string>
+    <string name="extras_topic_id">topicId</string>
+    <string name="extras_total_score_id">totalScoreId</string>
+    <string name="extras_valid_score_id">validScoreId</string>
+
+    <string name="story_game_over_activity_textView_you_escaped">YOU ESCAPED!</string>
+    <string name="story_game_over_activity_textView_escaped_failed">ESCAPE FAILED!</string>
+    <string name="story_game_over_activity_button_main_menu">Main Menu</string>
+    <string name="story_game_over_activity_button_continue">Continue</string>
+
+    <string name="game_over_activity_textView_title">QUIZ COMPLETE</string>
+    <string name="game_over_activity_textView_quiz_score">Your Score: 0</string>
+    <string name="game_over_activity_button_main_menu">Main Menu</string>
+    <string name="game_over_activity_button_try_again">Try Again</string>
+
+    <string name="hint_textView_title">Math Topic Title</string>
+    <string name="hint_textView_description">In this section, a tip or small review related to the question is provided to the user.</string>
+    <string name="hint_button_done">Got It</string>
+
+    <string name="level_intro_id">level_intro</string>
+    <string name="level_01_id">level_01</string>
+    <string name="level_02_id">level_02</string>
+    <string name="level_03_id">level_03</string>
+    <string name="level_04_id">level_04</string>
+    <string name="level_05_id">level_05</string>
+    <string name="level_06_id">level_06</string>
+    <string name="level_07_id">level_07</string>
+    <string name="level_story_id">level_story</string>
+    <string name="level_practice_id">level_practice</string>
+
+    <string name="main_activity_textView_title">Calculus | Captive</string>
+    <string name="main_activity_button_story">Story Mode</string>
+    <string name="main_activity_button_practice">Practice Mode</string>
+    <string name="main_activity_button_profile">My Profile</string>
+
+    <string name="misc_button_return">Return</string>
+
+    <string name="practice_level_select_activity_textView_title">Pick a Topic:</string>
+    <string name="practice_level_select_activity_button_level_functions">Functions and Models</string>
+    <string name="practice_level_select_activity_button_level_limits">Limits and Derivatives</string>
+    <string name="practice_level_select_activity_button_level_differentiation">Differentiation Rules</string>
+    <string name="practice_level_select_activity_button_level_integration">Integration Rules</string>
+
+    <string name="profile_activity_textView_title">My Profile</string>
+    <string name="profile_activity_textView_story_completion_title">Story Completion</string>
+    <string name="profile_activity_textView_clues_uncovered_title">Clues Uncovered:</string>
+    <string name="profile_activity_textView_clue_01">- Clue 01 (generated)</string>
+    <string name="profile_activity_textView_clue_02">- Clue 02 (generated)</string>
+    <string name="profile_activity_textView_clue_03">- Clue 03 (generated)</string>
+    <string name="profile_activity_textView_clue_04">- Clue 04 (generated)</string>
+    <string name="profile_activity_textView_statistics_title">General Statistics:</string>
+    <string name="profile_activity_textView_statistics_games_won">Rooms Escaped: </string>
+    <string name="profile_activity_textView_statistics_games_lost">Rooms Failed: </string>
+    <string name="profile_activity_textView_no_clues">No Clues Found!</string>
+
+    <string name="story_level_select_activity_textView_title">Enter the Room:</string>
+    <string name="story_level_select_activity_button_intro">Intro</string>
+    <string name="story_level_select_activity_button_level_01">Room 1</string>
+    <string name="story_level_select_activity_button_level_02">Room 2</string>
+    <string name="story_level_select_activity_button_level_03">Room 3</string>
+    <string name="story_level_select_activity_button_level_04">Room 4</string>
+    <string name="story_level_select_activity_button_level_05">Room 5</string>
+    <string name="story_level_select_activity_button_level_06">Room 6</string>
+    <string name="story_level_select_activity_button_level_07">Room 7</string>
+
+    <string name="story_level_select_activity_alertdialog_locked_room_title">Locked Room</string>
+    <string name="story_level_select_activity_alertdialog_locked_room_message">Please complete a previous Room before entering this one.</string>
+
+    <string name="story_teller_activity_textView_title">Room Title</string>
+    <string name="story_teller_activity_textView_description">Room Description</string>
+    <string name="story_teller_activity_textView_description_intro">You wake up in a dark room. Pitch black. No windows. You have no idea who you are or where you are.  You find a flashlight. The walls are covered with math equations. You run to the door. There is a keypad and a message:\n\n\"You do not have much time left. Hurry before they return.\" -X.\n\nYour story begins.</string>
+    <string name="story_teller_activity_textView_description_level_01">Finally, the door creaks, and slowly opens. You find yourself in small badly-lit hall with 7 numbered doors.\n\n\"What is this place?\" - you find asking yourself.\n\nSuddenly, you hear footsteps in the distance. Your heart starts racing as you sprint to the nearest entrance, hoping you will be able to get in before someone sees you.</string>
+    <string name="story_teller_activity_textView_description_level_02">Room 2 Story Text</string>
+    <string name="story_teller_activity_textView_description_level_03">Room 3 Story Text</string>
+    <string name="story_teller_activity_button_continue">Continue</string>
+
+    <string name="quiz_activity_textView_title">Question: 1 / -</string>
+    <string name="quiz_activity_textView_question_description">This is a placeholder question. It is not an actual math problem but it takes roughly the same space as a real question. So, what is your answer?</string>
+    <string name="quiz_activity_button_answer_01">Answer A</string>
+    <string name="quiz_activity_button_answer_02">Answer B</string>
+    <string name="quiz_activity_button_answer_03">Answer C</string>
+    <string name="quiz_activity_button_answer_04">Answer D</string>
+    <string name="quiz_activity_button_answer_incorrect">INCORRECT ANSWER</string>
+    <string name="quiz_activity_button_hint">HINT</string>
+    <string name="quiz_activity_button_next">Next Question</string>
+
+    <string name="shared_preferences_all_stats">allStats</string>
+    <string name="shared_preferences_profile_setting">profile</string>
+    <string name="shared_preferences_number_of_clues">numberOfClues</string>
+    <string name="shared_preferences_clue_prefix">clue_</string>
+    <string name="shared_preferences_clue_null">noCluesFound</string>
+    <string name="shared_preferences_rooms_escaped">roomsEscaped</string>
+    <string name="shared_preferences_rooms_failed">roomsFailed</string>
+
+    <string name="title_activity_practice_difficulty_select">Select Difficulty</string>
+    <string name="title_activity_practice_game_over">Calculus | Captive</string>
+    <string name="title_activity_practice_level_select">Select Topic</string>
+    <string name="title_activity_profile">My Profile</string>
+    <string name="title_activity_story_level_select">Select Story Level</string>
+    <string name="title_activity_story_teller">In The Room</string>
+    <string name="title_activity_quiz">Calculus | Captive</string>
+    <string name="title_activity_story_game_over">In The Room</string>
+
+</resources>

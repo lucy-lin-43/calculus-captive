@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_story_game_over"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ca.sfu.group04termproject.StoryGameOverActivity">
+
+
+    <TextView
+        android:id="@+id/textView_story_game_over_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/story_game_over_activity_textView_you_escaped"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/textView_story_game_over_quiz_score"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView_story_game_over_quiz_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_story_game_over_continue"
+        android:layout_alignEnd="@+id/textView_story_game_over_result"
+        android:layout_alignLeft="@+id/textView_story_game_over_result"
+        android:layout_alignRight="@+id/textView_story_game_over_result"
+        android:layout_alignStart="@+id/textView_story_game_over_result"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/game_over_activity_textView_quiz_score"/>
+
+    <Button
+        android:id="@+id/button_story_game_over_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button_story_game_over_main_menu"
+        android:layout_alignLeft="@+id/button_story_game_over_main_menu"
+        android:layout_alignRight="@+id/button_story_game_over_main_menu"
+        android:layout_alignStart="@+id/button_story_game_over_main_menu"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:onClick="setUpContinue"
+        android:text="@string/story_game_over_activity_button_continue"/>
+
+
+    <Button
+        android:id="@+id/button_story_game_over_main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_story_game_over_continue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:onClick="startMainActivity"
+        android:text="@string/story_game_over_activity_button_main_menu"/>
+</RelativeLayout>

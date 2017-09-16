@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="BLUE">#0000ff</color>
+    <color name="BLACK">#000000</color>
+    <color name="CYAN">#00ffff</color>
+    <color name="GRAY">#808080</color>
+    <color name="GRAY800">#404040</color>
+    <color name="GRAY600">#757575</color>
+    <color name="GREEN">#008000</color>
+    <color name="PURPLE">#800080</color>
+    <color name="RED">#ff0000</color>
+    <color name="WHITE">#ffffff</color> 
+ 
+</resources>
